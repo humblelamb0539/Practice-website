@@ -1,0 +1,88 @@
+.body {
+    font-family: Georgia;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+p {
+    margin: 0%;
+}
+.header {
+    padding-top: 10px;
+    display: flex;
+    justify-content:center;
+    font-size: 100;
+    
+}
+.brand-name {
+    font-weight: 1200
+    display: flex; 
+    font-size: 8vw;
+    color: black
+}
+
+.content {
+    display: flex;
+    max-height: min-content;
+}
+.main-article {
+    margin-right: 10px;
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: flex-end;
+}
+.main-article h1 {
+    font-size: 3vw;
+}
+.main-article img {
+    width: 100%;
+  height: auto;
+}
+.sub-articles {
+    border-left:  solid gray 1px;
+    padding-left: 10px;
+    flex: 30%;
+    font-size: 30px
+}
+.list-sub{
+    padding: 0%;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.list-sub h2 {
+    margin-top: 0%;
+    font-size: 2vmin;
+}
+.list-sub img {
+ width: 100%;
+ height: auto;
+}
+
+.navbar ul {
+    border-top:  solid gray 1px;
+    border-bottom:  solid gray 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+.alt-text {
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    color: gray; 
+}
+.posted {
+    padding-top: 5px;
+    display: flex;
+    font-size: 10px;
+    color: gray; 
+}
